@@ -1,0 +1,36 @@
+body{
+    background-color:darkgreen;
+
+}
+h1{
+    color:rgb(213, 66, 32);
+    text-align:center;
+    justify-content: center;
+    font-size:100px;
+    
+
+}
+#message{
+    color:white;
+    text-align:center;
+    justify-content: center;
+    font-size:30px;
+
+    
+}
+p{
+    color:white;
+    text-align:center;
+    justify-content: center;
+    font-size:30px;
+}
+button{
+    width: 300px;
+height: 100px;
+
+
+margin-left: 480px;
+margin-top: 100px;
+background-color: goldenrod;
+font-size: medium;
+}

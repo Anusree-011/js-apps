@@ -1,0 +1,22 @@
+body{
+    background-color:green;
+    text-align: center;
+}
+h1{
+    color:goldenrod;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size:70px;
+    text-align: center;
+}
+#message{
+    font-size:30px;
+    color:black;
+
+
+}
+p{
+    font-size:30px;
+    color:black;
+
+
+}

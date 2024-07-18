@@ -1,0 +1,51 @@
+body{
+    background-color:aquamarine;
+    text-align:center;
+    justify-content: center;
+        border-radius:50px;
+     border:50px solid green;
+    padding:50px;
+    margin: 20px;
+}
+h1{
+    color:black;
+    font-family: cursive;
+
+}
+#number1{
+    border-radius: 10px;
+    border-color:black;
+    border-width: 30px;
+    padding-bottom: 20px;
+}
+#number2{
+    border-radius: 10px;
+    border-color:black;
+    border-width: 30px;
+    padding-bottom: 20px;
+}
+#plusbtn{
+    color:black;
+    border-radius: 10px;
+    
+}
+#minusbtn{
+    color:black;
+    border-radius: 10px;
+    
+}
+#multiplybtn{
+    color:black;
+    border-radius: 10px;
+    
+}
+#divisionbtn{
+    color:black;
+    border-radius: 10px;
+    
+}
+#clearall{
+    background-color: rgb(223, 10, 10);
+    color:white;
+    border-radius:20px;
+}

@@ -1,0 +1,37 @@
+body{
+    background-color:azure;
+    text-align:center;
+    justify-content:center;
+
+
+}
+#text{
+    padding:10px;
+    color:rgb(245, 10, 10);
+    font-size:50px;
+}
+#incrementBtn{
+    border-radius: 9px;
+    background-color:aqua;
+
+}
+#resetBtn{
+    border-radius: 9px;
+    background-color:aqua;
+    
+
+}
+#decrementBtn{
+    border-radius:9px;
+    background-color:aqua;
+
+}
+#save{
+    border-radius:9px;
+    background-color:aqua;
+
+    
+}
+#save-El{
+    color:black;
+}

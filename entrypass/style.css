@@ -1,0 +1,25 @@
+body{
+    background-color: blueviolet;
+    text-align: center;
+    justify-content:center;
+}
+label{
+    color:black;
+    font-size:40px;
+    margin:50px;
+    padding:20px;
+}
+#mytext{
+    color:black;
+    margin:20px;
+    
+    
+}
+#btn{
+    background-color:red
+}
+#entry{
+    color:balck;
+    font-size:20px;
+    
+}

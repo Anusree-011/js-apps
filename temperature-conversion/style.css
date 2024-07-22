@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    text-align: center;
+
+}
+form{
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+}
+h1{
+    color:white;
+    padding:10px;
+    margin:20px;
+}
+#textbox{
+    background-color: white;
+    border-radius: 5x;
+    text-align: center;
+    box-shadow: 5px 15px 5px;
+    width:150px;
+    height:25px;
+}
+#toFarebheit{
+    color:azure;
+    font-size: 20px;
+
+
+}
+#tocelsius{
+    color:white;
+    font-size: 20px;
+}
+#btn{
+    background-color: blueviolet;
+    box-shadow: 5px 15px 5px;
+    width:100px;
+    height:25px;
+    font-size: large;
+}
+#result{
+    color:aliceblue;
+    font-size: 30px;
+}

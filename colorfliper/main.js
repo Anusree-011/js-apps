@@ -5,3 +5,6 @@ function setcolor(name){
     body.style.backgroundColor= name;
 }
 setcolor();
+function reload(){
+    window.location.reload()
+}

@@ -11,4 +11,5 @@ modechange.addEventListener("click", function(){
             document.querySelector("body").style.backgroundColor="white";
 
         }
+        console.log(mode)
 })

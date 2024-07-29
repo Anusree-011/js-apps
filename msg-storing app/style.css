@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(83, 175, 192);
+    margin:150px;
+
+}
+.container{
+    background-color: #fff;
+    padding:40px 0px 80px;
+
+    
+}
+#text{
+    border-color: aqua;}
+    
+#btn{
+    border-radius: 5px;
+    background-color: rgb(110, 184, 184);
+    color:#fff;
+   padding:10px;
+   border-color: none;
+   cursor: pointer;
+}
+#btn:hover{
+    color:aqua;
+    
+}
+#content{
+    color:black;
+    font-size:20px;
+}

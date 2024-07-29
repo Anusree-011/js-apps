@@ -1,6 +1,6 @@
 let btn=document.getElementById("btn");
 let body=document.querySelector("body")
-const clr=["red","black","blue","violet"]
+const clr=["red","black","blue","violetls"]
 
 btn=document.addEventListener("click",function(){
   

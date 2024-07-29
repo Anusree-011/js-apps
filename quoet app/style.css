@@ -1,0 +1,41 @@
+body{
+    background-color: burlywood;
+    text-align: center;
+    justify-content: center;
+    padding:50px;
+    min-height: 100vh;
+}
+#text{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    .container{
+        background-color: white;
+       flex:0 0 80%;
+        border-radius: 2rem;
+        text-align: center;
+
+    }
+    #btn{
+        padding:10px;
+        width:20%;
+        border-radius:10px;
+        cursor: pointer;
+        background-color: rgb(204, 100, 25);
+        border-color: black;
+    }
+    #btn:hover{
+        color:rgb(227, 225, 224);
+    }
+    #quoets{
+        font-size: 50px;
+        font-family: 'Times New Roman', Times, serif;
+        padding:20px;
+    }
+    #t2{
+        font-size: 20px;
+        padding-bottom: 20px
+        ;
+    }
+

@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(35, 25, 97);
+    text-align: center;
+    justify-content: center;
+}
+.container{
+    padding:60px 30px 30px;
+    margin:20px;
+}
+#text{
+    color:bisque;
+    font-size:50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:20px 30px 20px;
+}
+#number{
+    font-size: 50px;
+    color:rgb(34, 179, 130);
+    cursor: pointer;
+}
+#number:hover{
+    color:aqua;
+}
+#btn{
+    padding-right:10px;
+    color:#fff;
+    background-color: black;
+    width:100px;
+    height:50px;
+    font-family: cursive;
+    border: 3px solid #c83535;
+
+}
+#btns{
+    padding-right:10px;
+    color:#fff;
+    background-color: black;
+    width:100px;
+    height:50px;
+    font-family: cursive;
+    border: 3px solid #c83535;
+}
+.button:hover{
+    background-color:rgb(84, 79, 79)
+   
+   
+}
+#save-El{
+    color:azure;
+    
+    padding-right:10px;
+    color:#fff;
+    background-color: black;
+    width:100px;
+    height:50px;
+    font-family: cursive;
+    border: 3px solid #c83535;
+}

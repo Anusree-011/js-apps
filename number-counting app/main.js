@@ -22,7 +22,11 @@ btn.document=addEventListener("click",increment)
         function increment(){
             count--;
             number.innerHTML=count;
-
+   if(number.innerHTML>'0'){
+    number.style.color="red";}
+    else{
+        number.style.color="white";
+    }
         }
         btns.document=addEventListener("click",decrement)
 

@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(134, 18, 212);
+    text-align: center;
+    margin:0px;
+
+}
+.container{
+    background-color: blue;
+    text-align: center;
+    margin:90px;
+    padding:25px 35px 35px 35px;
+    
+}
+span{
+    font-size:50px;
+}
+
+   
+    
+    #hr:hover{
+        color:rgb(218, 218, 7);
+
+    }
+    #minu:hover{
+        color:rgb(216, 216, 111);
+
+    }
+  
+span:hover{
+    color:beige;
+}
+#clock span{
+    position:relative;
+    font-size:50px;
+    color:chartreuse;
+}
+#hr::after{
+    content:'HOURs';
+    font-size:10px;
+}
+#minu::after{
+    content:'minutes';
+    font-size:10px;
+}
+#sec::after{
+    content:'second';
+    font-size:10px;
+}

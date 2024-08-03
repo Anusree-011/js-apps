@@ -8,7 +8,7 @@ btn.addEventListener("click",getanswer)
  function getanswer(){
     let num=document.getElementById("box1").value ;
     let num2=document.getElementById("box2").value;
-    let result=parseInt(num)+parseInt(num2);
+    let result=parseInt(num)*parseInt(num2);
 
 text.innerHTML=result;
  }

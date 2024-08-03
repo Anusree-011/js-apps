@@ -1,70 +1,16 @@
-// alert("welcome")
+const btn=document.getElementById("btn");
 
+btn.addEventListener("click",getValues);
 
+function getValues(){
 
-//  const second=document.getElementById("second");
-//  const email=document.getElementById("email");
-//  const phone=document.getElementById("phone");
-// const adress=document.getElementById("adress");
- let btn=document.getElementById('btn');
-let final=document.getElementById("result");
+    const firstName=document.getElementById("firstname").value;
+    const secondName=document.getElementById("second").value;
+    const emailvalue=document.getElementById("email").value;
+    const phonenumber=document.getElementById("phone").value;
+    const adressvalue=document.getElementById("adress").value;
 
+let result=firstName+secondName+" ,"+emailvalue+" ,"+phonenumber+" ,"+adressvalue+" ." ;
 
-
-
-const getValues = ()=>{
-let firstname=document.getElementById("firstname").value;
-
-console.log(firstname)
-
+console.log(result)
 }
-
-btn.addEventListener("click",getValues)
-
-// function getValues(){
-//     const namevalue=first.value.trim();
-//     const namesvalue=second.value.trim();
-//     const phonevalue=phone.value.trim();
-//     const Emailvalue=email.value.trim();
-//     const adressvalue=adress.value.trim();
-
-// //  let result=second+email+phone+adress;
-
-// let result=namevalue+" "+ namesvalue+" "+phonevalue
-//  Emailvalue +" "+ adressvalue;
-
- 
-// console.log(result)
-
-
-// }
-// btn.addEventListener("click",getValues)
-
-
-
-
-    
-// // text.innerText=
-//  let result=namevalue+" "+ 
-//  Emailvalue +" "+ passwordvalue;
-
- 
-// console.log(result)
-// }
-
-// btn.addEventListener("click",getValues);
-
-
-// function displayvalues(){
-   
-// let first=document.getElementById("first").value;
-
-
-// let second=document.getElementById("second").value;
-// let email=document.getElementById("email").value;
-// let phone=document.getElementById("phone").value;
-// let adress=document.getElementById("adress").value;
-
-// result.innerHTML=first;
-// console.log(result)
-// }

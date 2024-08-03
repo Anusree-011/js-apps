@@ -1,0 +1,58 @@
+body{
+   background-color: blueviolet;
+    text-align: center;
+    min-height: 100vh;
+    justify-content: center;
+}
+.container{
+   background-color: #fff;
+   height:70vh;
+    margin:60px;
+    padding:9px 15px;
+    display: flex;;
+
+}
+table{
+    width:100px;
+    padding:20px 30px;
+}
+table tr{
+    width:100px;
+    padding:20px 30px;
+    position:relative;
+}
+table td{
+    width:100px;
+    padding:20px 30px;
+    position: inherit;
+}
+table input{
+    border-color: blue;
+    box-sizing: border-box;
+    width:50%px
+
+}
+table input:hover{
+    border-color: black;
+   
+    
+}
+table label{
+    font-size: 20px;
+}
+#box{
+    width:200px;
+    height:150px;
+    justify-content: center;
+}
+#btn{
+    width:100px;
+    height:40px;
+    margin-bottom:100%;
+    background-color: rgb(32, 32, 235);
+    color:#fff
+}
+#btn:hover{
+    background-color: rgb(146, 146, 193);
+}
+

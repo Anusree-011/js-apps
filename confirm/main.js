@@ -6,29 +6,19 @@ const text=document.getElementById("text");
 let btn=document.getElementById("btn")
 
 
-btn=document.addEventListener("click",validateForm);
 
-function validateForm(){
+function getValues(){
    
-    const validateInputs = ()=>{
+    // const getValues = ()=>{
         const namevalue=username.value.trim();
         const Emailvalue=email.value.trim();
         const passwordvalue=password.value.trim();
-    text.innerText=validateInputs;
-     console.log(text);
-
-}
-}
-
-    // let usernameInput= document.getElementById('username').value;
-    // // localStorage.setItem('validateForm', usernameInput);
-    // text.innerHTML=usernameInput;
-    // console.log(username)
-
-        
+    // text.innerText=
+     let result=namevalue+" "+ 
+     Emailvalue +" "+ passwordvalue;
     
+     text.innerHTML=result;
+console.log(result)
+}
 
-    // function saveData() {
-    //     const inputData =
-    //     localStorage.setItem('savedData', inputData);
-    //     window.location.href = 'result.html'; 
+btn.addEventListener("click",getValues);
